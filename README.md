@@ -7,7 +7,7 @@ Solving the travel schedule puzzle using optimisation
 
 In order to run a sample optimisation use the following steps:
 - In the python console load the file *import optimization* 
-- Declare the domain. Each passeneger has a choice of 9 flights and has to travel two ways. *domain=[(0,8)]*(len(optimization.people)*2)* 
+- Declare the domain. Each passeneger has a choice of 9 flights and has to travel two ways. domain=[(0,8)]/*(len(optimization.people)/*2)
 - Run the optimisation: *s=optimization.randomoptimize(domain,optimization.schedulecost)*
 - View the cost calculated: *optimization.schedulecost(s)*
 - Print the optimised schedule: *optimization.printschedule(s)*
